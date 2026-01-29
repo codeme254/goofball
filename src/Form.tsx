@@ -7,7 +7,7 @@ interface FormProps {
 function Form({ onSetModuleName, onSetNumItems, onSubmit }: FormProps) {
   return (
     <div className="header">
-      <h1>Generate Test Case IDs</h1>
+      <h1>Goofball: Generate Test Case IDs</h1>
 
       <form
         onSubmit={(e) => {
